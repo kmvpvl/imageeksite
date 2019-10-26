@@ -30,7 +30,7 @@ include "header.php";
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">РАСПИСАНИЕ</a>
+        <a id="btn-schedule" class="nav-link" href="#">РАСПИСАНИЕ</a>
       </li>
       <li class="nav-item">
         <a id="btn-desc" class="nav-link" href="#">ОПИСАНИЕ</a>
@@ -95,7 +95,11 @@ include "header.php";
 Можно купить вместе с занятиями по английскому языку - это дешевле</p><p>
 Не забывайте, еще нужно купить компьютер ребенку, желательно ноутбук 13-14". Не нужна высокая производительность - она вредна. Еще нужно будет покупать всякие контроллеры, датчики, реле и провода. Но это все дела копеечные...</p>
 </div>
-
+<div id="section-schedule" class="container-fluid bg-secondary" style="padding-top:30px;padding-bottom:30px">
+  <h1>РАСПИСАНИЕ?</h1>
+  
+<iframe src="https://calendar.google.com/calendar/embed?src=3fu8besr3fm493rogtil3rvudc%40group.calendar.google.com&ctz=Europe%2FMoscow" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
 <?php
 include "footer.php";
 ?>
@@ -117,6 +121,11 @@ $("#btn-howmuch").click(function() {
 $("#btn-desc").click(function() {
     $('#content-div').animate({
         scrollTop: $("#section-desc").offset().top
+    }, 2000);
+});
+$("#btn-schedule").click(function() {
+    $('#content-div').animate({
+        scrollTop: $("#section-schedule").offset().top
     }, 2000);
 });
 </script>
