@@ -1,0 +1,8 @@
+﻿{
+  "name": "S-HO.ME",
+  "short_name": "SH",
+  "description": "Smart home application",
+  "lang": "ru",
+  "start_url": "/",
+  "display": "fullscreen"
+}
