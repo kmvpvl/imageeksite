@@ -33,10 +33,10 @@ include "header.php";
         <a class="nav-link" href="#">РАСПИСАНИЕ</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">ОПИСАНИЕ</a>
+        <a id="btn-desc" class="nav-link" href="#">ОПИСАНИЕ</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">СКОЛЬКО СТОИТ?</a>
+        <a id="btn-howmuch" class="nav-link" href="#">СКОЛЬКО СТОИТ?</a>
       </li>    
       <li class="nav-item">
         <a class="nav-link" href="#">ДОСТУП</a>
@@ -47,11 +47,11 @@ include "header.php";
 
 <div id="content-div">
 
-<div id="section1" class="container-fluid bg-success" style="padding-top:30px;padding-bottom:30px">
+<div id="section-desc" class="container-fluid bg-success" style="padding-top:30px;padding-bottom:30px">
   <h1>ОПИСАНИЕ КУРСА</h1>
   <img src="img/pic1.png" class="float-left img-thumbnail" style="width:120px; margin-right:5px;">
   <p>  Курс «I’m a geek %)» для детей дает основные профессиональные навыки в информационных технологиях на английском или русском языке за счет погружения в международную профессиональную среду и  группового взаимодействия при решении реальных практических задач в сфере информационных технологий</p>
-</div><div id="section1" class="container-fluid bg-info" style="padding-top:30px;padding-bottom:30px">  <h1>ДЛЯ КОГО?</h1>
+</div><div id="section-whom" class="container-fluid bg-info" style="padding-top:30px;padding-bottom:30px">  <h1>ДЛЯ КОГО?</h1>
   <img src="img/pic2.png" class="float-left img-thumbnail" style="width:120px; margin-right:5px;">  <p>Для детей от 13 лет, имеющих базовые знания английского языка и желающих сделать информационные технологии делом своей жизни
   </p><p>
 Для тех, кто потом не хочет повторно изучать информационные технологии на английском языке</p><p>
@@ -59,12 +59,12 @@ include "header.php";
 Для тех, кто понял, что изучать нужно через практические навыки
 </p>
 </div>
-<div id="section2" class="container-fluid bg-warning" style="padding-top:30px;padding-bottom:30px">
+<div id="section-teacher" class="container-fluid bg-warning" style="padding-top:30px;padding-bottom:30px">
   <h1>КТО ВЕДЕТ ЗАНЯТИЯ</h1>
   <img src="img/pic4.png" class="float-left img-thumbnail" style="width:120px; margin-right:5px;">  <p>Чему может научить профессиональный преподаватель? Только преподавать.
 У нас занятия ведут профессиональные ИТ-специалисты, владеющие английским языком</p>
 </div>
-<div id="section1" class="container-fluid bg-secondary" style="padding-top:30px;padding-bottom:30px">  
+<div id="section-doubt" class="container-fluid bg-secondary" style="padding-top:30px;padding-bottom:30px">  
   <img src="img/pic3.png" class="float-left img-thumbnail" style="width:120px; margin-right:5px;">
   <h1>А МНЕ ТОЧНО ЭТО НУЖНО?</h1>
 <p>Откажитесь если:
@@ -77,18 +77,18 @@ include "header.php";
 <li>Ребенок хочет научиться зарабатывать карманные деньги интеллектуальным трудом </li>
 </p>
 </div>
-<div id="section3" class="container-fluid bg-success" style="padding-top:30px;padding-bottom:30px">
+<div id="section-skill" class="container-fluid bg-success" style="padding-top:30px;padding-bottom:30px">
 <img src="img/pic5.png" class="float-left img-thumbnail" style="width:120px; margin-right:5px;">  <h1>КАКИЕ НАВЫКИ ПОЛУЧИТ УЧЕНИК?</h1>
   <p>Первый и главный навык - как достойно и честно зарабатывать деньги на информационных технологиях</p><p>
 Общение в международной профессиональной среде информационных технологий</p><p>
 Алгоритмическое мышление и кругозор ИТ-специалиста</p>
 </div>
-<div id="section41" class="container-fluid bg-danger" style="padding-top:30px;padding-bottom:30px"><img src="img/pic6.png" class="float-left img-thumbnail" style="width:120px; margin-right:5px;">
+<div id="section-instagram" class="container-fluid bg-danger" style="padding-top:30px;padding-bottom:30px"><img src="img/pic6.png" class="float-left img-thumbnail" style="width:120px; margin-right:5px;">
   <h1>Я НИЧЕГО В ЭТОМ НЕ ПОНИМАЮ...</h1>
   <p>Поздравляем вас! Ваш ребенок знает что-то лучше вас
 Если вам нужен совет или консультация подпишитесь на instagram @i_mageek.  Там есть новости и можно задать вопрос в комментариях или в директ</p>
 </div>
-<div id="section42" class="container-fluid bg-info" style="padding-top:30px;padding-bottom:30px">
+<div id="section-howmuch" class="container-fluid bg-info" style="padding-top:30px;padding-bottom:30px">
   <h1>СКОЛЬКО ЭТО СТОИТ?</h1>
   <img src="img/pic7.png" class="float-left img-thumbnail" style="width:120px; margin-right:5px;"><p>Каждое занятие можно оплатить отдельно</p><p>
 Можно купить сразу несколько занятий подряд - это дешевле</p><p>
@@ -108,6 +108,17 @@ $(document).ready(function() {
 $(window).resize(function() {
 	$('#content-div').css('height', $(window).height()-$('#content-div').offset().top);
 })
+
+$("#btn-howmuch").click(function() {
+    $('#content-div').animate({
+        scrollTop: $("#section-howmuch").offset().top
+    }, 2000);
+});
+$("#btn-desc").click(function() {
+    $('#content-div').animate({
+        scrollTop: $("#section-desc").offset().top
+    }, 2000);
+});
 </script>
 </body>
 </html>
