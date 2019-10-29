@@ -1,7 +1,7 @@
 ﻿{
-  "name": "S-HO.ME",
-  "short_name": "SH",
-  "description": "Smart home application",
+  "name": "ImAGeek",
+  "short_name": "ImAGeek",
+  "description": "Описание курса",
   "lang": "ru",
   "start_url": "/",
   "display": "fullscreen"
