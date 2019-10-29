@@ -40,7 +40,7 @@ include "btmenuscript.php";
 <div id="section-instagram" class="container-fluid bg-danger" style="padding-top:30px;padding-bottom:30px"><img src="img/pic6.png" class="float-left img-thumbnail" style="width:120px; margin-right:5px;">
   <h1>Я НИЧЕГО В ЭТОМ НЕ ПОНИМАЮ...</h1>
   <p>Поздравляем вас! Ваш ребенок знает что-то лучше вас
-Если вам нужен совет или консультация подпишитесь на instagram @i_mageek.  Там есть новости и можно задать вопрос в комментариях или в директ</p>
+Если вам нужен совет или консультация подпишитесь на instagram <a target="_blank" href="https://www.instagram.com/i_mageek/">@i_mageek</a>.  Там есть новости и можно задать вопрос в комментариях или в директ</p>
 </div>
 <div id="section-surveillance" class="container-fluid bg-secondary" style="padding-top:30px;padding-bottom:30px">  
   <img src="img/pic8.png" class="float-left img-thumbnail" style="width:120px; margin-right:5px;">
