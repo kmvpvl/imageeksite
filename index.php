@@ -98,7 +98,7 @@ include "header.php";
 <div id="section-schedule" class="container-fluid bg-secondary" style="padding-top:30px;padding-bottom:30px">
   <h1>РАСПИСАНИЕ?</h1>
   
-<iframe src="https://calendar.google.com/calendar/embed?src=3fu8besr3fm493rogtil3rvudc%40group.calendar.google.com&ctz=Europe%2FMoscow" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=3fu8besr3fm493rogtil3rvudc%40group.calendar.google.com&ctz=Europe%2FMoscow" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
 </div>
 <?php
 include "footer.php";
