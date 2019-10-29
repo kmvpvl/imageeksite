@@ -29,16 +29,16 @@ function scrollToChapter(_newChapter){
     }, 2000);  */  
 } 
 $("#btn-howmuch").bind('click', function() {
-    loadContent("howmuch");
+    loadContent("howmuch.php");
     scrollToChapter("#section-howmuch");
 
 });
 $("#btn-desc").bind('click', function() {
-    loadContent("desc");
+    loadContent("desc.php");
     scrollToChapter("#section-desc");
 });
 $("#btn-schedule").bind('click', function() {
-    loadContent("schedule");
+    loadContent("schedule.php");
     scrollToChapter("#section-schedule");
 });
 </script>

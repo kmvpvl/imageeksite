@@ -15,11 +15,11 @@ function clearContent(){
 	$('#content-div').html('');
 }
 
-function loadContent(newContent = "desc") {
+function loadContent(newContent = "desc.php") {
     if (newContent != _cur_content) {
         _cur_content = newContent;
         clearContent();
-        $.get(_cur_content + ".php", function(data, status){ 
+        $.get(_cur_content, function(data, status){ 
     		switch (data) {
     			case "":
     				break;
@@ -35,7 +35,7 @@ $(document).ready(function() {
 <?php
     if (isset($_GET["course"])) {
 ?>
-    loadContent("course/<?=$_GET["course"]?>"); 
+    loadContent("course.php?id=<?=$_GET["course"]?>"); 
 <?php
     } else {
 ?>

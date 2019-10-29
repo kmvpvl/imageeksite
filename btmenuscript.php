@@ -4,12 +4,12 @@
 <a id="ref-desc" href="#">ОПИСАНИЕ</a>
 <script>
 $("#ref-howmuch").bind('click', function() {
-    loadContent("howmuch");
+    loadContent("howmuch.php");
 });
 $("#ref-desc").bind('click', function() {
-    loadContent("desc");
+    loadContent("desc.php");
 });
 $("#ref-schedule").bind('click', function() {
-    loadContent("schedule");
+    loadContent("schedule.php");
 });
 </script>
