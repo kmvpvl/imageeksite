@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-  <a class="navbar-brand" style="color: white;">I'm a geek <img src="img/logoimageek.png" alt="Logo" style="width:30px;"></a>
+  <a class="navbar-brand" style="color: white;cursor: default;">I'm a geek <img src="img/logoimageek.png" alt="Logo" style="width:30px;"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
