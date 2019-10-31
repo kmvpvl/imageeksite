@@ -34,6 +34,7 @@ if ($row1["modulename"] != $modulename) {
     
             </div>
           </div>
+          </div>
     <?php
     }
 ?>
