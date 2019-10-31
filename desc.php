@@ -1,5 +1,5 @@
 <div id="section-desc" class="container-fluid bg-success" style="padding-top:30px;padding-bottom:30px">
-  <h1>ОПИСАНИЕ КУРСА</h1>
+  <h1>ШКОЛА ИТ-СПЕЦИАЛИСТОВ</h1>
   <img src="img/pic1.png" class="float-left img-thumbnail" style="width:120px; margin-right:5px;">
   <p>  Курс «I’m a geek %)» для детей дает основные профессиональные навыки в информационных технологиях на английском или русском языке за счет погружения в международную профессиональную среду и  группового взаимодействия при решении реальных практических задач в сфере информационных технологий</p>
 <?php

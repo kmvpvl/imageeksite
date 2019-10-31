@@ -14,6 +14,9 @@
       <li class="nav-item">
         <a id="btn-howmuch" class="nav-link" href="#">СКОЛЬКО СТОИТ?</a>
       </li>    
+      <li class="nav-item">
+        <a id="btn-modules" class="nav-link" href="#">МОДУЛИ</a>
+      </li>    
       <!--li class="nav-item">
         <a class="nav-link" href="#">ДОСТУП</a>
       </li-->    
@@ -39,6 +42,10 @@ $("#btn-desc").bind('click', function() {
 });
 $("#btn-schedule").bind('click', function() {
     loadContent("schedule.php");
+    scrollToChapter("#section-schedule");
+});
+$("#btn-modules").bind('click', function() {
+    loadContent("courses.php");
     scrollToChapter("#section-schedule");
 });
 </script>
