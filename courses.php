@@ -16,7 +16,7 @@ if ($row1["chaptername"] != $chaptername) {
     $chaptername = $row1["chaptername"]; 
     if ($i > 1) {
     ?>
-    
+          </div>
           </div>
     <?php
     }
