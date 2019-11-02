@@ -9,7 +9,7 @@ $i = 1;
 $chaptername = "";
 $modulename = "";
 ?>
-  <div id="accordion">
+  <div id="accordion" class="container-fluid bg-info">
 <?php
 while ($row1 = mysql_fetch_assoc($rs)){ 
 if ($row1["chaptername"] != $chaptername) {
@@ -38,9 +38,9 @@ if ($row1["modulename"] != $modulename) {
     <?php
     }
 ?>
-<div class="card">
+<div class="card container-fluid bg-info">
       <div class="card-header">
-        <a class="card-link" data-toggle="collapse" href="#collapse<?=$i?>">
+        <a class="card-link" data-toggle="collapse" href="#collapse<?=$i?>" style="color:black;">
 
   <?=$row1["outlinenumber"]?> <?=$row1["modulename"]?><?=((!is_null($row1["remark"]))? "*" : "")?>
   <p><?=$row1["tags"]?></p> 
@@ -53,7 +53,7 @@ if ($row1["modulename"] != $modulename) {
 <?php
 }
 ?>
-      <p><?=$row1["duration"]?> - <?=$row1["description"]?></p>
+      <p><small><?=$row1["duration"]?> - <?=$row1["description"]?></small></p>
 
 <?php
   $i = $i + 1;
