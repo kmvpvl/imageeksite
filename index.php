@@ -37,6 +37,10 @@ $(document).ready(function() {
 ?>
     loadContent("course.php?id=<?=$_GET["course"]?>"); 
 <?php
+    } elseif (isset($_GET["customer"])) {
+?>
+    loadContent("private.php?id=<?=$_GET["customer"]?>"); 
+<?php
     } else {
 ?>
     loadContent();    
