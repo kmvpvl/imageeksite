@@ -38,4 +38,5 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/56004919" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<meta name="yandex-verification" content="96124f94d1655a51" />
 </head>
