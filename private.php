@@ -40,7 +40,7 @@ $sql = "SELECT * FROM `money` where customeruid like '" . $_GET["id"] . "' and b
 $rs = mysql_query($sql,$conn) or die(mysql_error());
 while ($row1 = mysql_fetch_assoc($rs)) {
 ?>
-      <p><?=date("d.m.y", strtotime($row1["timeoperation"])) . " - часов израсходовано: " . $row1["boughtcount"]?> </p>
+      <p><?=date("d.m.y", strtotime($row1["timeoperation"])) . " - часов израсходовано: " . abs($row1["boughtcount"])?> </p>
 <?php
 }
 ?>    </div>
