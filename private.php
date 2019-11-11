@@ -18,10 +18,10 @@ echo "<h3>" . $row1["customername"] . "</h3><h5>Осталось занятий:
 <div class="container-fluid">
   <div class="row">
     <div class="col-6">
-      <h3>Приобретено</h3>
+      <h5>Приобретено</h5>
     </div>
     <div class="col-6">
-      <h3>Израсходовано</h3>
+      <h5>Израсходовано</h5>
     </div>
     <div class="col-6">
 <?php
