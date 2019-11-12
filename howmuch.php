@@ -1,4 +1,4 @@
-<div id="section-howmuch" class="container-fluid bg-info" style="padding-top:30px;padding-bottom:30px">
+<div id="section-howmuch" class="container-fluid bg-dark text-white" style="padding-top:30px;padding-bottom:30px"> 
   <h1>СКОЛЬКО ЭТО СТОИТ?</h1>
   <img src="img/pic7.png" class="float-left img-thumbnail" style="width:120px; margin-right:5px;"><p>Каждое занятие можно оплатить отдельно</p><p>
 Можно купить сразу несколько занятий подряд - это дешевле</p><p>
