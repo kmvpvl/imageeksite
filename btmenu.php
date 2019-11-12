@@ -17,9 +17,9 @@
       <li class="nav-item">
         <a id="btn-modules" class="nav-link" href="#">МОДУЛИ</a>
       </li>    
-      <!--li class="nav-item">
-        <a class="nav-link" href="#">ДОСТУП</a>
-      </li-->    
+      <li class="nav-item">
+        <a id="btn-where" class="nav-link" href="#">ГДЕ?</a>
+      </li>    
     </ul>
   </div>  
 </nav>
@@ -47,6 +47,10 @@ $("#btn-schedule").bind('click', function() {
 $("#btn-modules").bind('click', function() {
     loadContent("courses.php");
     scrollToChapter("#section-schedule");
+});
+$("#btn-where").bind('click', function() {
+    loadContent("where.php");
+    scrollToChapter("#section-where");
 });
 </script>
 
