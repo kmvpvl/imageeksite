@@ -51,10 +51,10 @@ $closeddivtag = false;
 }
 ?>    
 </div>
-</div>
 <?php
 include "btmenuscript.php"; 
 ?>
+</div>
 <script>
 $("p").css("display", "none");
 $("[module]").on("click", function (event){
