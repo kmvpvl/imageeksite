@@ -1,9 +1,9 @@
 <div class="btn-group"><center>
-<button type="button" class="btn btn-dark" id="ref-howmuch">Сколько стоит?</button>
-<button type="button" class="btn btn-warning" id="ref-where">Где?</button> 
-<button type="button" class="btn btn-secondary" id="ref-schedule">Расписание</button> 
-<button type="button" class="btn btn-info" id="ref-modules">Модули</button>
-<button type="button" class="btn btn-success" id="ref-desc">Описание</button> 
+<button type="button" class="btn btn-dark" id="ref-howmuch" style="margin: 3px 0px 0px 3px;">Сколько стоит?</button>
+<button type="button" class="btn btn-warning" id="ref-where" style="margin: 3px 0px 0px 3px;">Где?</button> 
+<button type="button" class="btn btn-secondary" id="ref-schedule" style="margin: 3px 0px 0px 3px;">Расписание</button> 
+<button type="button" class="btn btn-info" id="ref-modules" style="margin: 3px 0px 0px 3px;">Модули</button>
+<button type="button" class="btn btn-success" id="ref-desc" style="margin: 3px 0px 0px 3px;">Описание</button> 
 </center>
 </div>
 <script>
