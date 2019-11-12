@@ -1,7 +1,7 @@
 <?php
 include "dbconnr.php";
 
-$sql = "SELECT * FROM  `chronos` LEFT JOIN modules ON modules.uid = chronos.module_uid ORDER BY outlinenumber ASC , chronos.uid ASC";
+$sql = "SELECT convert(SUBSTRING_INDEX( modules.outlinenumber,  '.', 1 ), unsigned integer) AS a, convert(SUBSTRING_INDEX( modules.outlinenumber,  '.', -1 ), unsigned integer) AS b, chronos . * , modules . * FROM  `chronos` LEFT JOIN modules ON modules.uid = chronos.module_uid ORDER BY a ASC , b ASC , chronos.uid ASC";
 //echo $sql;
 $rs = mysql_query($sql,$conn) or die(mysql_error());
 
