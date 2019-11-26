@@ -10,6 +10,16 @@
 </script>
 
 <title>I'm a geek %)</title>
+<meta name="DESCRIPTION" content="Школа программистов для детей на русском и на английском языках. Умный дом и роботы. Мытищи очно и удаленно из любой точки мира">
+<meta property="og:title" content="Школа программистов I'm ageek %) 13+">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://imageek.ru/">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:description" content="Школа программистов для детей на русском и на английском языках. Умный дом и роботы. Мытищи очно и удаленно из любой точки мира">
+<meta property="og:image" content="/img/logo60.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="60">
+<meta property="og:image:height" content="60">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <link rel="stylesheet" href="imageek.css"/>
