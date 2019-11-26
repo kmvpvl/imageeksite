@@ -9,9 +9,9 @@
   gtag('config', 'UA-151696798-1');
 </script>
 
-<title>I'm a geek %)</title>
+<title>Школа программистов I'm a geek %)</title>
 <meta name="DESCRIPTION" content="Школа программистов для детей на русском и на английском языках. Умный дом и роботы. Мытищи очно и удаленно из любой точки мира">
-<meta property="og:title" content="Школа программистов I'm ageek %) 13+">
+<meta property="og:title" content="Школа программистов I'm a geek %) 13+">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://imageek.ru/">
 <meta property="og:locale" content="ru_RU">
