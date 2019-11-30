@@ -29,7 +29,7 @@
     echo "Место на диске - " . disk_free_space(".")/1024/1024 . "<br>";
     echo "Текущий каталог - " . getcwd() . "<br>";
     echo "Размер папки - " . $warnsize . "<br>";
-    if ($warnsize > 2000) {
+    if ($warnsize > 20) {
     	$msg = "Warning disk size Appletec hosting \n";
     	$msg .= "Data folder's size " . $warnsize . "\n";
     	$sbjct = "WARNING: disk size";
