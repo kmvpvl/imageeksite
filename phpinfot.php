@@ -22,7 +22,7 @@
       return $size;
     }
     
-    $warnsize = dirsize("../../../")/1024/1024;
+    $warnsize = dirsize("../")/1024/1024;
     
     echo "Сегодня - ".date("d F Y")."<br>";
     echo "Текущее время - ".date("H:i:s")."<br>";
